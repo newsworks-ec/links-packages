@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.ec-wrapper {
+	width: 95%;
+	margin: 0 auto;
+	padding: 2.5%;	
+	max-width: 500px;
+}
+
+.ec-race-dropdown {
+	color: #333333;
+  	background-color: #f5f5f5;
+	
+	width: 50%;
+	margin: 0 auto 30px auto;
+	color: #6b8cbd;
+}
+
+.ec-race-dropdown ul {
+	padding:2px 5px;
+	position: relative; 
+	height:auto;	
+	text-align: left; 
+	width: 100%;
+	z-index: 99;
+	border: 1px solid #ddd;	
+	border-radius: 3px;
+	list-style-type:none;
+}
+
+
+
+.ec-race-dropdown ul li {
+	padding: 5%;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+.ec-race-dropdown ul li:last-child {
+	border-bottom: none;	
+}
+.ec-race-dropdown ul li a {
+	/*color: #6b8cbd;	*/
+	  text-transform: uppercase;
+	    color: #8e8e8e;
+  font-size: .85rem;
+}
+
+
+#ec-race-collapse {
+	display: block;
+	list-style-type:none;
+	margin:0;
+	padding: 5% 0 0 0;
+	/*position: absolute ;  
+	top: 100%; 
+	right: 0; */
+	width: 100%;
+	background-color: #f5f5f5;
+	border: none;
+}
+
+
+	
+/*
+.ec-race-dropdown ul ul li {
+	background-color: #f5f5f5;
+	margin-bottom: 0;
+	padding: 5%;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+
+*/
+
+
+.ec-race-dropdown ul ul li a {
+	  
+  padding: 4% 0 4% 6%;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 15px;
+	
+}
+
+#ec-race-menu {
+	color: #8e8e8e;
+	text-transform: uppercase;
+}
+
+
+
+.ec-arrow-down {
+	margin-bottom: 0;
+	margin-top: 15px;
+	margin-right: 4% !important;
+	width: 10% !important;
+	color: #6b8cbd;
+	float: right;
+}
+
+#ec-nav-arrow-down {
+	color: #8e8e8e;
+}
+
+.ec-profile-image {
+	float: left;
+	width: 20%;
+	height: auto;
+}
+
+.ec-image {
+	float: left;
+	margin: 0;	
+}
+
+.ec-panel-wrap {
+	padding: 10px;
+	position: relative;
+}
+
+
+.ec-panel-grouping {
+	clear: both;
+}
+
+
+
+
+.ec-name {
+	float: left;	
+	width: 65%;
+	height: auto;
+	padding-top: 5px;
+	padding-left: 8px;
+	line-height: 20px;
+}
+
+
+.ec-subheading {
+	font-weight: bold;
+	padding-bottom: 2.5%;
+}
+
+.ec-collapse ul {
+	margin: 0;	
+}
+
+.ec-bullet-list {
+	list-style: disc;
+	width: 90%;
+	padding: 2%;
+	margin-left: 5% !important;
+}
+
+.ec-bullet-list li {
+	margin-bottom: 10px;
+}
+
+
+.ec-collapse {
+	display: none;	
+}
+
+
+.ec-contact-links {
+	padding: 5% 2%;
+	width: 96%;	
+	margin-left: 0 !important;
+}
+
+.ec-contact-links li  {
+	list-style: none;
+	margin-bottom: 0;
+	
+}
+
+.ec-contact-links li a {
+	color: #6b8cbd;	
+}
+
+
+.seventy {
+	font-style: italic;
+}
+.seventy a {
+	color: #6b8cbd;	
+}
+
+/*  DESIGN TESTING
+.ec-collapse	{
+	display:block !important;	
+}
+*/
+
+
+.ec-race-dropdown {
+ padding: 2px 5px;
+ position: relative;
+ height: auto;
+ text-align: left;
+ width: 100%;
+ z-index: 99;
+ border: 1px solid #ddd;
+ border-radius: 3px;
+}
+
+#ec-race-menu {
+    cursor:pointer;
+    padding: 5px 0;
+	display:block;
+}
+
+.current-race {
+	display: block;	
+}
+.voters-guide-title {
+    text-align:center;
+}
+
